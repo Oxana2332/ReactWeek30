@@ -1,13 +1,13 @@
 import React, {useState} from 'react'
 import { useEffect } from 'react'
-import WordItem from '../WordItem/WordItem.jsx'
-import AddNew from '../AddNew/AddNew.jsx'
-import data from '../../data/data.json'
-import './dictionary.css'
-import '../../style/variables.css'
+import WordItem from '../components/WordItem/WordItem.jsx'
+import AddNew from '../components/AddNew/AddNew.jsx'
+import data from '../data/data.json'
+import '../style/dictionary.css'
+import '../style/variables.css'
 
 
-function Dictionary() {
+function Home() {
 
 const [words, setWords] = useState([]);
 
@@ -47,4 +47,4 @@ const resultEditWords = data.map(item=>{
     )
 }
 
-export default Dictionary
+export default Home

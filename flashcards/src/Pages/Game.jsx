@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import Card from '../Card/Card.jsx'
-import './trainingMode.css'
-import data from '../../data/data.json'
+import Card from '../components/Card/Card.jsx'
+import '../style/game.css'
+import data from '../data/data.json'
 
-function TrainingMode() {
+function Game() {
     const [words, setWords] = useState(false)
     const [count, setCount] = useState(0)
 
@@ -36,5 +36,5 @@ function TrainingMode() {
     )
 }
 
-export default TrainingMode
+export default Game
 

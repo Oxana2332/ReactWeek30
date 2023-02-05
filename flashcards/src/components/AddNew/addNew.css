@@ -21,7 +21,7 @@
 .new {
     height: 5vh;
     width: 5vw;
-    background-image: url("../../../public/assets/img/addButton.svg");
+    background-image: url("../../../public/assets/addButton.svg");
     background-repeat: no-repeat;
     background-position: center; 
 }

@@ -27,14 +27,14 @@
 .edit {
     margin-right: 1%;
     margin-top: 1.5%;
-    background-image: url("../../../public/assets/img/editButton.svg");
+    background-image: url("../../../public/assets/editButton.svg");
     background-repeat: no-repeat;
     background-position: center; 
 }
 
 .del {
     margin-top: 1.5%;
-    background-image: url("../../../public/assets/img/deleteButton.svg");
+    background-image: url("../../../public/assets/deleteButton.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -73,14 +73,14 @@
 }
 
 .save {
-    background-image: url("../../../public/assets/img/saveButton.svg");
+    background-image: url("../../../public/assets/saveButton.svg");
     background-repeat: no-repeat;
     background-position: center; 
     height: 5vh;
 }
 
 .cancel {
-    background-image: url("../../../public/assets/img/cancelButton.svg");
+    background-image: url("../../../public/assets/cancelButton.svg");
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 8px;

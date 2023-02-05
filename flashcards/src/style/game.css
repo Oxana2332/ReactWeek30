@@ -11,7 +11,7 @@
     width: 10%;
     color: var(--focusBasicLight);
     font-size: var(--fontTitle);
-    background-image: url("../../../public/assets/img/arrow-left.svg");
+    background-image: url("../../public/assets/arrow-left.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-color: #dcdcdc00;
@@ -23,7 +23,7 @@
     width: 10%;
     color: var(--focusBasicLight);
     font-size: var(--fontTitle);
-    background-image: url("../../../public/assets/img/arrow-right.svg");
+    background-image: url("../../public/assets/arrow-right.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-color: #dcdcdc00;
