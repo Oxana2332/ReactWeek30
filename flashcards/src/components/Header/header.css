@@ -1,0 +1,9 @@
+.header {
+    background-color: var(--headerFooter);
+    padding: 2.5%;
+    color: var(--font);
+    font-family: var(--designFont);
+    font-size: var(--fontTitle);
+    margin-bottom: 1%;
+    width: 95%;
+}

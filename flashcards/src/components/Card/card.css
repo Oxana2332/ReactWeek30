@@ -1,0 +1,52 @@
+.card {
+    background-color: var(--basicLight);
+    margin: 7% auto;
+    text-align: center;
+    width: 35vw;
+    height: 35vh;
+    border-radius: 20px;
+    border: 5px solid var(--basicLight);
+}
+
+.card_title {
+    margin-top: 7vh;
+    font-family: var(--basicFont);
+    font-size: var(--fontTitle);
+    color: var(--headerFooter);
+}
+
+.card_text {
+    font-size: var(--fontText);
+    font-family: var(--basicFont);
+}
+
+.card_text__ru {
+    margin-top: 8vh;
+    font-size: var(--fontText);
+    font-family: var(--basicFont);
+}
+
+.card_button {
+    width: 50%;
+    height: 5%;
+    padding: 5%;
+    margin: 7vh auto;
+    border-color: rgba(0, 0, 0, 0.74);
+    border-radius: 20px;
+    font-family: var(--basicFont);
+    background-color: var(--buttonGreen);
+    color: var(--focusBasicLight); 
+    font-size: var(--fontText);
+    line-height: 0.9;
+}
+
+.card_button:hover {
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+    color: var(--headerFooter);
+}
+
+.card_button:active {
+    box-shadow: var(--shadowActive);
+}

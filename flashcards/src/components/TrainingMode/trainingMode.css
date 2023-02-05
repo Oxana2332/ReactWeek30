@@ -1,0 +1,56 @@
+.conteinerCard {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    gap: 13%;
+}
+
+.button_prev {
+    border: none;
+    outline: none;
+    width: 10%;
+    color: var(--focusBasicLight);
+    font-size: var(--fontTitle);
+    background-image: url("../../../public/assets/img/arrow-left.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #dcdcdc00;
+}
+
+.button_next {
+    border: none;
+    outline: none;
+    width: 10%;
+    color: var(--focusBasicLight);
+    font-size: var(--fontTitle);
+    background-image: url("../../../public/assets/img/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #dcdcdc00;
+}
+
+.button_prev:hover {
+    color: var(--basicDark);
+}
+
+.button_prev:focus {
+    color: var(--font);
+}
+
+.button_prev:active  {
+    box-shadow: var(--shadowActive);
+    border-radius: 100px;
+}
+
+.button_next:hover {
+    color: var(--basicDark);
+}
+
+.button_next:focus {
+    color: var(--font);
+}
+
+.button_next:active  {
+    box-shadow: var(--shadowActive);
+    border-radius: 100px;
+}

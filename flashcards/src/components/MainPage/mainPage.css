@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main_start {
+    align-self: center;
+    width: 60%;
+    height: 20vh;
+    border-radius: 20px;
+    font-size: var(--fontTitle);
+    border-color: rgba(255, 255, 255, 0);
+    background-color: var(--basicLight);
+    color: black;
+    font-family: var(--basicFont);
+    
+}
+
+.main_element {
+    align-self: center;
+    width: 60%;
+    height: 20vh;
+    border-radius: 20px;
+    font-size: var(--fontTitle);
+    border-color: rgba(255, 255, 255, 0);
+    background-color: var(--basicLight);
+    color: black;
+    font-family: var(--basicFont);
+}
+
+.main_element:hover {
+    transform: scale(1);
+    box-shadow: 0 0 5px 5px rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.main_element:focus {
+    background-color: var(--focusBasicLight);
+}
+
+.main_element:active {
+    box-shadow: var(--shadowActive);
+}
