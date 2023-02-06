@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import WordItem from '../components/WordItem/WordItem.jsx'
 import AddNew from '../components/AddNew/AddNew.jsx'
 import data from '../data/data.json'
-import '../style/dictionary.css'
+import '../style/home.css'
 import '../style/variables.css'
 
 
